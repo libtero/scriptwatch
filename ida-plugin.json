@@ -1,0 +1,27 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "ScriptWatch",
+    "version": "1.0.0",
+    "entryPoint": "scriptwatch",
+    "description": "macOS plugin that streamlines managing and running Python scripts",
+    "urls": {
+      "repository": "https://github.com/libtero/scriptwatch"
+    },
+    "authors": [
+      {
+        "name": "tero",
+        "email": "arttson@gmail.com"
+      }
+    ],
+    "categories": [
+      "api-scripting-and-automation"
+    ],
+    "idaVersions": ">=9.3",
+    "platforms": [
+      "macos-aarch64",
+      "macos-x86_64"
+    ],
+    "license": "MIT"
+  }
+}
